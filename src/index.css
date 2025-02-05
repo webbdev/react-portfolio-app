@@ -1,0 +1,202 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+	font-family: "Poppins", sans-serif;
+	background-color: #fbfbfb;
+	color: rgba(0, 0, 0, 1);
+}
+
+#root {
+	margin: 0 auto;
+	padding: 0;
+	position: relative;
+}
+
+/* to keep footer at bottom of screen */
+#root {
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+}
+  
+main {
+	flex: 1;
+}
+
+.poppins-thin {
+	font-family: "Poppins", sans-serif;
+	font-weight: 100;
+	font-style: normal;
+}
+
+.poppins-extralight {
+	font-family: "Poppins", sans-serif;
+	font-weight: 200;
+	font-style: normal;
+}
+
+a,
+button {
+	transition: all .5s ease;
+}
+
+#header {
+	background-color: #fbfbfb;
+	transition: all 0.4s ease;
+}
+
+#header .navbar a.active-link,
+#header .navbar a:hover,
+#footer a:hover {
+	color: #e1422c;
+	transition: 0.5s ease;
+}
+
+.project-card .overlay {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	height: 100%;
+	width: 100%;
+	opacity: 0;
+	transition: .5s ease;
+	background-color: #e1422c;
+}
+
+.project-card:hover .overlay {
+	opacity: 1;
+}
+
+.overlay .text {
+	color: white;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	-webkit-transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+	text-align: center;
+}
+
+.container {
+	max-width: 1280px;
+	width: 100%;
+	margin: 0 auto;
+}
+
+
+/* Project Page */
+.project-description p {
+	margin-bottom: 12px;
+}
+
+/* Project's images carousel  */
+.embla {
+	overflow: hidden;
+}
+.embla__container {
+	display: flex;
+}	
+.embla__slide {
+	flex: 0 0 100%;
+	min-width: 0;
+}
+
+
+/* animation */
+.animate-fadeOut {
+	-webkit-animation: fadeOut 1s ease-out;
+	animation: fadeOut 1s ease-out;
+}
+@-webkit-keyframes fadeOut {
+	0% {opacity: 1;}
+	100% {opacity: 0;}
+}
+@keyframes fadeOut {
+	0% {opacity: 1;}
+	100% {opacity: 0;}
+}
+
+.animate-fadeIn {
+	-webkit-animation: fadeIn 1s ease-in;
+	animation: fadeIn 1s ease-in;
+}
+@-webkit-keyframes fadeIn {
+	0% {opacity: 0;}
+	100% {opacity: 1;}
+}
+@keyframes fadeIn {
+	0% {opacity: 0;}
+	100% {opacity: 1;}
+}
+
+/* Header */
+@media screen and (max-width: 767px) {
+	.slideInRight {
+		-webkit-animation-name: slideInRight;
+		animation-name: slideInRight;
+		-webkit-animation-duration: 0.5s;
+		animation-duration: 0.5s;
+		-webkit-animation-fill-mode: both;
+		animation-fill-mode: both;
+	}
+	@-webkit-keyframes slideInRight {
+		0% {
+			-webkit-transform: translateX(100%);
+			transform: translateX(100%);
+			visibility: visible;
+		}
+		100% {
+			-webkit-transform: translateX(0);
+			transform: translateX(0);
+		}
+	}
+	@keyframes slideInRight {
+		0% {
+			-webkit-transform: translateX(100%);
+			transform: translateX(100%);
+			visibility: visible;
+		}
+		100% {
+			-webkit-transform: translateX(0);
+			transform: translateX(0);
+		}
+	} 
+
+	.slideOutRight {
+		-webkit-animation-name: slideOutRight;
+		animation-name: slideOutRight;
+		-webkit-animation-duration: 0.5s;
+		animation-duration: 0.5s;
+		-webkit-animation-fill-mode: both;
+		animation-fill-mode: both;
+	}
+	@-webkit-keyframes slideOutRight {
+		0% {
+			-webkit-transform: translateX(0);
+			transform: translateX(0);
+		}
+		100% {
+			visibility: hidden;
+			-webkit-transform: translateX(100%);
+			transform: translateX(100%);
+		}
+	}
+	@keyframes slideOutRight {
+		0% {
+			-webkit-transform: translateX(0);
+			transform: translateX(0);
+		}
+		100% {
+			visibility: hidden;
+			-webkit-transform: translateX(100%);
+			transform: translateX(100%);
+		}
+	} 
+}
