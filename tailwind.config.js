@@ -1,4 +1,7 @@
 /** @type {import('tailwindcss').Config} */
+
+import forms from '@tailwindcss/forms';
+
 export default {
   content: [
     "./index.html",
@@ -21,9 +24,6 @@ export default {
       roman: 'upper-roman',
     },
     extend: {
-      fontFamily: {
-
-      },
       colors: {
         'red': '#e1422c',
         'grey_1': '#fbfbfb',
@@ -47,9 +47,6 @@ export default {
       gridTemplateColumns: {
         '55/43': '55% 43%'
       },
-      transitionProperty: {
-
-      },
       transitionDuration: {
         1000: '1000ms',
       },
@@ -70,6 +67,6 @@ export default {
     },
   },
   plugins: [
-    require('@tailwindcss/forms'),
+    forms,
   ],
 }
