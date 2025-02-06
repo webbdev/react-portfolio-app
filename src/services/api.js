@@ -1,6 +1,7 @@
 import axios from 'axios';
 
-const API_URL = 'http://127.0.0.1:8000/api/projects/';
+// Use environment variable with a fallback for local development
+const API_URL = import.meta.env.VITE_API_URL || 'http://127.0.0.1:8000/api/projects/';
 
 export const getProjects = async () => {
     try {
@@ -10,7 +11,7 @@ export const getProjects = async () => {
         console.error('Error fetching projects:', error);
         return [];
     }
-}
+};
 
 export const getProjectCount = async () => {
     try {
