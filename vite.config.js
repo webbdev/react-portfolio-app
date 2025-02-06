@@ -9,5 +9,9 @@ export default defineConfig({
   },
   optimizeDeps: {
     exclude: ['js-big-decimal']
-  }
+  },
+  build: {
+    assetsDir: 'assets', // Ensure assets are correctly bundled
+  },
+  base: '/', // Use this if the app is deployed at the root
 })
