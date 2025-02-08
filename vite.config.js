@@ -1,17 +1,17 @@
 import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
 
-// https://vitejs.dev/config/
 export default defineConfig({
   plugins: [react()],
+  base: "/",  // Ensures correct asset paths
+  build: {
+    outDir: "dist",  // Output build to "dist" folder (default)
+    assetsDir: "assets", // Keeps assets organized
+  },
   server: {
     port: 3000,
   },
   optimizeDeps: {
     exclude: ['js-big-decimal']
   },
-  build: {
-    assetsDir: 'assets', // Ensure assets are correctly bundled
-  },
-  base: '/', // Use this if the app is deployed at the root
 })
