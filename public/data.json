@@ -1,0 +1,196 @@
+{
+	"projects": [
+		{
+			"id": 1,
+			"title": "La Perla",
+			"subtitle": "E-commerce Website",
+			"description": "\u003Cp\u003E\r\nDeveloped and enhanced the \u003Cstrong\u003EUX/UI\u003C/strong\u003E for \u003Cb\u003Elaperla.com\u003C/b\u003E, driving improved user engagement and satisfaction. Contributed to the project as a front-end developer, collaborating cross-functionally and ensuring feature delivery aligned with roadmap expectations. Leveraged modern technologies and Agile methodology to build responsive, user-friendly web experiences.\r\n\u003C/p\u003E",
+			"image_mini": "/images/project-1/pr1-mini.jpg",
+			"images": [
+				{
+					"id": 11,
+					"image": "/images/project-1/pr1-1.jpg"
+				},
+				{
+					"id": 12,
+					"image": "/images/project-1/pr1-2.jpg"
+				},
+				{
+					"id": 13,
+					"image": "/images/project-1/pr1-3.jpg"
+				},
+				{
+					"id": 14,
+					"image": "/images/project-1/pr1-4.jpg"
+				},
+				{
+					"id": 15,
+					"image": "/images/project-1/pr1-5.jpg"
+				},
+				{
+					"id": 16,
+					"image": "/images/project-1/pr1-6.jpg"
+				},
+				{
+					"id": 17,
+					"image": "/images/project-1/pr1-7.jpg"
+				},
+				{
+					"id": 18,
+					"image": "/images/project-1/pr1-8.jpg"
+				}
+			],
+			"url": "https://laperla.com/",
+			"tech_stack": "BigCommerce, Stencil, HTML5, CSS3/SCSS/SASS, JavaScript (ES6+), jQuery, React, Handlebars.js, Storefront API, AJAX, JSON, Git",
+			"key_features": [
+				"Redesigned and enhanced website UX/UI for better usability.",
+				"Developed custom templates in BigCommerce stencil storefront based on PSD and Invision designs.",
+				"Developed new features and built responsive pixel-perfect web pages.",
+				"Conducted Accessibility, SEO, and performance audits to optimize site functionality.",
+				"Resolved usability issues through testing, bug fixing, and user feedback.",
+				"Delivered cohesive front-end solutions in collaboration with Product, Design, and Back-end teams."
+			]
+		},
+		{
+			"id": 2,
+			"title": "Printerpix",
+			"subtitle": "E-commerce Platform for Personalized Photo Gifts",
+			"description": "\u003Cp\u003EWhile working at \u003Cstrong\u003EPrinterpix\u003C/strong\u003E, I contributed to improving the \u003Cstrong\u003Euser experience\u003C/strong\u003E and \u003Cstrong\u003Euser interface\u003C/strong\u003E of responsive e-commerce platform, Printerpix.co.uk, built on ASP.NET MVC. I developed engaging, marketing-focused pages using JavaScript, jQuery, Shopify and Liquid templates. Collaborated with cross-functional teams—including Product, Design, and Back-End Development. By following Agile methodologies, I helped streamline workflows and improve customer interactions.\r\n\u003C/p\u003E",
+			"image_mini": "/images/project-2/pr2-mini.jpg",
+			"images": [
+				{
+					"id": 21,
+					"image": "/images/project-2/pr2-1.jpg"
+				},
+				{
+					"id": 22,
+					"image": "/images/project-2/pr2-2.jpg"
+				},
+				{
+					"id": 23,
+					"image": "/images/project-2/pr2-3.jpg"
+				}
+			],
+			"url": "https://www.printerpix.co.uk/",
+			"tech_stack": "HTML5, CSS3/SASS/LESS, JavaScript (ES6+), jQuery, ASP.NET MVC, Shopify, Liquid Template, Mustache.js, JSON, API",
+			"key_features": [
+				"Fully responsive e-commerce platform tailored for a personalized shopping experience.",
+				"Built and optimized marketing pages, improving conversion rates and user engagement.",
+				"Integrated with Shopify and Liquid templates for dynamic, customizable storefronts.",
+				"Implemented front-end enhancements to improve load time and usability.",
+				"Worked closely with the design team to ensure a visually cohesive, user-centric interface.",
+				"Delivered projects on time using Agile methodologies, maintaining a high standard of quality."
+			]
+		},
+		{
+			"id": 3,
+			"title": "My Reads",
+			"subtitle": "React App",
+			"description": "\u003Cb\u003E\"MyReads\"\u003C/b\u003E is a user-friendly bookshelf app that lets users organise their reading list by categorising books into shelves such as \u003Cb\u003ECurrently Reading\u003C/b\u003E, \u003Cb\u003EWant to Read\u003C/b\u003E, and \u003Cb\u003ERead\u003C/b\u003E. It provides seamless interactions using React and persists data via API integration.",
+			"image_mini": "/images/project-3/pr3-mini.jpg",
+			"images": [
+				{
+					"id": 31,
+					"image": "/images/project-3/pr3-1.jpg"
+				},
+				{
+					"id": 32,
+					"image": "/images/project-3/pr3-2.jpg"
+				},
+				{
+					"id": 33,
+					"image": "/images/project-3/pr3-3.jpg"
+				}
+			],
+			"url": "https://my-bookshelf-app.netlify.app/",
+			"tech_stack": "React, JavaScript, JSX, HTML5, CSS3/SCSS, API",
+			"key_features": [
+				"Categorize books into three shelves with an intuitive dropdown interface.",
+				"Search for books by title or author and add them to your shelves dynamically.",
+				"Automatically save user interactions using a robust API integration.",
+				"Responsive design for optimal usability across devices.",
+				"Built with React’s state and component-based architecture for seamless performance."
+			]
+		},
+		{
+			"id": 4,
+			"title": "LexiconPro",
+			"subtitle": "React app for mastering English vocabulary",
+			"description": "\u003Cb\u003E\"LexiconPro\"\u003C/b\u003E is a user-friendly app designed to help individuals effectively learn and retain English vocabulary. It offers tools to add new words, explore their meanings, track progress, and learn through interactive methods. Featuring an intuitive interface and integration with powerful APIs, LexiconPro makes expanding your vocabulary seamless and enjoyable.",
+			"image_mini": "/images/project-4/pr4-mini.jpg",
+			"images": [
+				{
+					"id": 41,
+					"image": "/images/project-4/pr-cs-1.jpg"
+				}
+			],
+			"url": "",
+			"tech_stack": "React, TypeScript, Axios, Python Django, APIs, HTML5, CSS3/SCSS",
+			"key_features": [
+				"Custom Word Management: Add English words with your own translations or fetch official definitions and meanings via a dictionary API.",
+				"Multi-Input Word Addition: Easily add words by typing or using speech-to-text functionality for seamless input.",
+				"Learned Words History: Track all the words you've added, organised for easy reference.",
+				"Dictionary Integration: Automatically fetch detailed definitions, meanings, and usage examples for added words.",
+				"Responsive and Intuitive UI: Experience a smooth and user-friendly interface powered by React."
+			]
+		},
+		{
+			"id": 5,
+			"title": "Lambda",
+			"subtitle": "Responsive Landing Page",
+			"description": "Developed a responsive, user-focused landing page for a restaurant, enhancing customer engagement and providing an exceptional browsing experience.",
+			"image_mini": "/images/project-5/pr5-mini.jpg",
+			"images": [
+				{
+					"id": 51,
+					"image": "/images/project-5/pr5-1.jpg"
+				},
+				{
+					"id": 52,
+					"image": "/images/project-5/pr5-2.jpg"
+				},
+				{
+					"id": 53,
+					"image": "/images/project-5/pr5-3.jpg"
+				},
+				{
+					"id": 54,
+					"image": "/images/project-5/pr5-4.jpg"
+				},
+				{
+					"id": 55,
+					"image": "/images/project-5/pr5-5.jpg"
+				}
+			],
+			"url": "https://webbdev.github.io/restaurant/",
+			"tech_stack": "HTML5, CSS3/SASS, Bootstrap, JavaScript (ES6+), jQuery.",
+			"key_features": [
+				"Responsive design for all devices.",
+				"Interactive elements with smooth animations.",
+				"Custom styling using modular SASS."
+			]
+		},
+		{
+			"id": 6,
+			"title": "Bugger",
+			"subtitle": "Classic Arcade Game Clone",
+			"description": "Developed a 2D classic arcade game clone – “Bugger”. Players navigate from the bottom to the top of the screen while avoiding enemies and collecting bonuses. The game features dynamic movement, intuitive controls, and interactive elements like scoring and bonus items. Players earn points by reaching the safe zone, with limited lives adding an extra layer of challenge.",
+			"image_mini": "/images/project-6/pr6-mini.jpg",
+			"images": [
+				{
+					"id": 61,
+					"image": "/images/project-6/pr6-1.jpg"
+				}
+			],
+			"url": "https://webbdev.github.io/Arcade-game-clone/",
+			"tech_stack": "JavaScript (ES6+), HTML5, CSS3",
+			"key_features": [
+				"Dynamic Gameplay: Avoid enemy 'bugs' across a 6-row game field with varying speeds.",
+				"Intuitive Controls: Use arrow keys to move up, down, left, and right.",
+				"Lives and Scoring: Start with 5 lives, earn points by reaching the top, and restart when lives run out.",
+				"Bonus Items: Collect hearts, stars, and keys to gain extra lives or boost scores.",
+				"Retro Design: Vibrant 2D visuals for a fun arcade experience."
+			]
+		}
+	]
+}

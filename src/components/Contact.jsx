@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import { useLocation } from 'react-router-dom';
+import emailjs from 'emailjs-com';
 
 const Contact = () => {
 	const location = useLocation();
@@ -70,36 +71,39 @@ const Contact = () => {
 		return Object.keys(newErrors).length === 0;
 	};
 
-	// Handle form submission
-	// Replace https://your-backend-url.onrender.com with your actual Render.com backend URL.
+	// Handle form submission - Send email using EmailJS
 	const handleSubmit = async (e) => {
 		e.preventDefault();
 		if (validate()) {
 			try {
-				const response = await fetch("http://127.0.0.1:8000/api/contact/", {
-					method: "POST",
-					headers: {
-						"Content-Type": "application/json",
-					},
-					body: JSON.stringify(formData),
-				});
-	
-				if (response.ok) {
-					const data = await response.json();
-					alert("Message sent successfully!");
-					console.log("Server Response:", data);
-					setFormData({ name: "", email: "", message: "" });
-					setErrors({});
-				} else {
-					alert("Failed to send message. Please try again.");
-				}
+				// Use EmailJS to send the form data to your Gmail
+				const templateParams = {
+					name: formData.name,
+					email: formData.email,
+					message: formData.message,
+				};
+
+				// Send the email using EmailJS
+				const response = await emailjs.send(
+					import.meta.env.VITE_EMAILJS_SERVICE_ID,
+					import.meta.env.VITE_EMAILJS_TEMPLATE_ID,
+					templateParams,
+					import.meta.env.VITE_EMAILJS_PUBLIC_KEY
+            
+				);
+
+				// console.log('Email sent successfully:', response);
+				alert('Message sent successfully!');
+
+				// Reset form fields and errors
+				setFormData({ name: '', email: '', message: '' });
+				setErrors({});
 			} catch (error) {
-				console.error("Error:", error);
-				alert("Something went wrong. Please try again later.");
+				console.error('Error sending email:', error);
+				alert('Something went wrong. Please try again later.');
 			}
 		}
 	};	
-	
 	
 	return (
 		<section id='contact' className='container'>

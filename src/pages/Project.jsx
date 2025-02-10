@@ -67,15 +67,18 @@ const Project = () => {
     useEffect(() => {
         const fetchProjectIds = async () => {
             try {
-                const response = await fetch('http://127.0.0.1:8000/api/projects/ids'); // Assuming this returns an array of IDs
-                const projectIds = await response.json();                
-
+                const response = await fetch('/data.json');
+                const data = await response.json();
+    
+                // Assuming the data contains a projects array
+                const projectIds = data.projects.map(project => project.id);
+    
                 const currentIndex = projectIds.indexOf(parseInt(id));
                 if (currentIndex !== -1) {
                     // Find previous and next IDs
                     const prevIndex = (currentIndex - 1 + projectIds.length) % projectIds.length;
                     const nextIndex = (currentIndex + 1) % projectIds.length;
-
+    
                     setPrevId(projectIds[prevIndex]);
                     setNextId(projectIds[nextIndex]);
                 }
@@ -83,7 +86,7 @@ const Project = () => {
                 console.error('Failed to fetch project IDs', error);
             }
         };
-
+    
         fetchProjectIds();
     }, [id]);
 
@@ -236,11 +239,28 @@ const Project = () => {
 }
 
 const projectLoader = async ({ params }) => {
-    // Fetch the current project
-    const projectResponse = await fetch(`http://127.0.0.1:8000/api/projects/${params.id}`);
-    const projectData = await projectResponse.json();
+  // Fetch the data from the JSON file
+  const response = await fetch('/data.json');
+  const data = await response.json();
+  
+// console.log("Fetched data:", data);
 
-    return projectData;
+  // Check if the data contains the "projects" array
+  if (!data.projects || !Array.isArray(data.projects)) {
+    console.error("Expected an array of projects, but received:", data);
+    return {}; // Return empty if it's not an array
+  }
+
+  // Find the project with the matching id
+  const projectData = data.projects.find(project => project.id === parseInt(params.id));
+  
+  // Handle case where the project is not found
+  if (!projectData) {
+    console.error("Project with id", params.id, "not found");
+    return {}; // Return empty if project not found
+  }
+
+  return projectData; // Return the found project data
 };
 
 export {Project as default, projectLoader};
