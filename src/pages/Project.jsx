@@ -32,17 +32,22 @@ const Project = () => {
 
     useEffect(() => {
         if (!emblaApi) return;
-
-        const onSelect = () => {
+    
+        const updateSlides = () => {
+            setSlidesCount(emblaApi.slideNodes().length);
             setSelectedIndex(emblaApi.selectedScrollSnap());
         };
-
-        emblaApi.on('select', onSelect);
-        onSelect(); // Get initial selected index
-        setSlidesCount(emblaApi.slideNodes().length);
-
-        return () => emblaApi.off('select', onSelect);
-    }, [emblaApi]);
+    
+        emblaApi.on('select', updateSlides);
+        emblaApi.on('reInit', updateSlides); // Ensures the correct slide count when changing projects
+    
+        updateSlides(); // Ensure correct initial count
+    
+        return () => {
+            emblaApi.off('select', updateSlides);
+            emblaApi.off('reInit', updateSlides);
+        };
+    }, [emblaApi, project]);    
 
     useEffect(() => {
         if (emblaApi) {
