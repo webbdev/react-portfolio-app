@@ -13,7 +13,6 @@ export default {
       'sm': '640px',
       'md': '768px',
       'lg': '1024px',
-      '2lg': '110px',
       'xl': '1280px',
     },
     listStyleType: {

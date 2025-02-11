@@ -30,7 +30,7 @@ const About = () => {
 				isFadingOut ? 'animate-fadeOut' : 'animate-fadeIn'
 			}`}
 		>
-			<div className="pt-[70px] md:pt-[113px] mb-[40px] md:mb-[66px] lg:mb-[80px]"></div>
+			<div className="pt-[70px] md:pt-[113px] mb-[40px] md:mb-[66px] xl:mb-[80px]"></div>
 			<div className='border-b border-black grid grid-cols-1 md:grid-cols-2 md:gap-8 lg:gap-16 xl:gap-16 pb-12 md:pb-20'>
 				<div className="md:pr-10 lg:pr-14">
 					<img 
