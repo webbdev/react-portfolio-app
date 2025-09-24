@@ -114,24 +114,34 @@
 		},
 		{
 			"id": 4,
-			"title": "LexiconPro",
-			"subtitle": "React app for mastering English vocabulary",
-			"description": "\u003Cb\u003E\"LexiconPro\"\u003C/b\u003E is a user-friendly app designed to help individuals effectively learn and retain English vocabulary. It offers tools to add new words, explore their meanings, track progress, and learn through interactive methods. Featuring an intuitive interface and integration with powerful APIs, LexiconPro makes expanding your vocabulary seamless and enjoyable.",
-			"image_mini": "/images/project-4/pr4-mini.jpg",
+			"title": "Music Shop",
+			"subtitle": "Store Landing Page",
+			"description": "<b>\"Music Shop\"</b> is a modern single-page website for a local music store. It provides essential information such as <b>address</b>, <b>services</b>, <b>product images</b>, and <b>pricing</b>, all in a responsive and lightweight design built with <b>React</b>, <b>Vite</b>, and <b>TypeScript</b>.",
+			"image_mini": "/images/project-4/pr-music-shop-mini.jpg",
 			"images": [
 				{
 					"id": 41,
-					"image": "/images/project-4/pr-cs-1.jpg"
+					"image": "/images/project-4/pr-music-shop-1.jpg"
+				},
+				{
+					"id": 42,
+					"image": "/images/project-4/pr-music-shop-2.jpg"
+				},
+				{
+					"id": 43,
+					"image": "/images/project-4/pr-music-shop-3.jpg"
 				}
 			],
-			"url": "",
-			"tech_stack": "React, TypeScript, Axios, Python Django, APIs, HTML5, CSS3/SCSS",
+			"url": "https://musicshopmitino.ru/",
+			"tech_stack": "React, Vite, TypeScript (.tsx), SCSS/SASS, HTML/JSX",
 			"key_features": [
-				"Custom Word Management: Add English words with your own translations or fetch official definitions and meanings via a dictionary API.",
-				"Multi-Input Word Addition: Easily add words by typing or using speech-to-text functionality for seamless input.",
-				"Learned Words History: Track all the words you've added, organised for easy reference.",
-				"Dictionary Integration: Automatically fetch detailed definitions, meanings, and usage examples for added words.",
-				"Responsive and Intuitive UI: Experience a smooth and user-friendly interface powered by React."
+				"Single-page business card website for a local music store.",
+				"Displays essential store information such as address, services, pricing, and product images.",
+				"Fast and lightweight performance powered by Vite.",
+				"Strong typing and maintainability with TypeScript (.tsx).",
+				"Modern and professional styling with SCSS / SASS.",
+				"Responsive design optimized for desktop, tablet, and mobile devices.",
+				"Easy deployment to hosting platforms such as Netlify or GitHub Pages."
 			]
 		},
 		{
@@ -190,6 +200,30 @@
 				"Lives and Scoring: Start with 5 lives, earn points by reaching the top, and restart when lives run out.",
 				"Bonus Items: Collect hearts, stars, and keys to gain extra lives or boost scores.",
 				"Retro Design: Vibrant 2D visuals for a fun arcade experience."
+			]
+		},
+		{
+			"id": 7,
+			"title": "Convertly",
+			"subtitle": "Units Converter App",
+			"description": "<b>\"Convertly\"</b> is a responsive units converter app built with <b>React</b>, <b>Vite</b>, <b>TypeScript</b>, and <b>TailwindCSS</b>. It allows users to convert between different units with ease, while also providing <b>formulas</b>, <b>examples</b>, <b>short descriptions</b>, and even <b>fun facts</b> about certain units for a more engaging experience.",
+			"image_mini": "/images/project-7/pr-converter-mini.jpg",
+			"images": [
+				{
+					"id": 71,
+					"image": "/images/project-7/pr-cs-1.jpg"
+				}
+			],
+			"url": "",
+			"tech_stack": "React, Vite, TypeScript (.tsx), HTML/JSX, TailwindCSS",
+			"key_features": [
+				"Convert between multiple units quickly and accurately.",
+				"Provides formulas behind conversions for transparency and learning.",
+				"Includes real-life examples to help users understand unit usage.",
+				"Fun facts about selected units for an engaging user experience.",
+				"Clean and responsive UI built with TailwindCSS.",
+				"Fast and lightweight performance powered by Vite.",
+				"Strong typing and maintainability with TypeScript."
 			]
 		}
 	]
