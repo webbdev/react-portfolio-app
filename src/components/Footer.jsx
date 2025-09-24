@@ -34,7 +34,7 @@ const Footer = () => {
 					</div>
 				</div>
 				<div className="flex justify-center py-5">
-					<p className='text-[13px] tracking-[3px] md:text-[14px]'>© 2025 TANYA</p>
+					<p className='text-[13px] tracking-[3px] md:text-[14px]'>© {new Date().getFullYear()} TANYA</p>
 				</div>
 			</div>
 		</footer>
