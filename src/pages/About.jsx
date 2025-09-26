@@ -58,8 +58,11 @@ const About = () => {
 			</div>
 
 			<div id="skills" className="pt-12 md:pt-16 pb-16 md:pb-24">
-				<h2 className="text-[30px] md:text-[46px] lg:text-[50px] mb-8 md:mb-10 text-center border-b-2 md:border-b-4 border-transparent hover:border-red transition-all duration-500">
-					My Technical Skills
+				<h2 className="group text-[30px] md:text-[46px] lg:text-[50px] mb-8 md:mb-10 text-center">
+					<span className='relative'>
+						My Technical Skills
+						<span className="absolute left-0 -bottom-1 w-0 h-[2px] md:h-[4px] bg-red transition-all duration-300 group-hover:w-full"></span>
+				</span>
 				</h2>
 			
 				<div className="grid md:grid-cols-3 gap-6 xl:gap-8">

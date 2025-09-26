@@ -219,11 +219,10 @@
 			"key_features": [
 				"Convert between multiple units quickly and accurately.",
 				"Provides formulas behind conversions for transparency and learning.",
-				"Includes real-life examples to help users understand unit usage.",
+				"Includes examples to help users understand unit usage.",
 				"Fun facts about selected units for an engaging user experience.",
 				"Clean and responsive UI built with TailwindCSS.",
-				"Fast and lightweight performance powered by Vite.",
-				"Strong typing and maintainability with TypeScript."
+				"Fast and lightweight performance powered by Vite + React."
 			]
 		}
 	]
