@@ -211,7 +211,11 @@
 			"images": [
 				{
 					"id": 71,
-					"image": "/images/project-7/pr-cs-1.jpg"
+					"image": "/images/project-7/pr-converter-1.jpg"
+				},
+				{
+					"id": 72,
+					"image": "/images/project-7/pr-converter-2.jpg"
 				}
 			],
 			"url": "",
