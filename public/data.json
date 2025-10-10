@@ -218,7 +218,7 @@
 					"image": "/images/project-7/pr-converter-2.jpg"
 				}
 			],
-			"url": "",
+			"url": "https://unit-converter-hub.netlify.app/",
 			"tech_stack": "React, Vite, TypeScript (.tsx), HTML/JSX, TailwindCSS",
 			"key_features": [
 				"Convert between multiple units quickly and accurately.",
