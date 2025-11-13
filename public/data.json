@@ -204,9 +204,9 @@
 		},
 		{
 			"id": 7,
-			"title": "Convertly",
-			"subtitle": "Units Converter App",
-			"description": "<b>\"Convertly\"</b> is a responsive units converter app built with <b>React</b>, <b>Vite</b>, <b>TypeScript</b>, and <b>TailwindCSS</b>. It allows users to convert between different units with ease, while also providing <b>formulas</b>, <b>examples</b>, <b>short descriptions</b>, and even <b>fun facts</b> about certain units for a more engaging experience.",
+			"title": "ConvertyHub",
+			"subtitle": "Converter Hub App",
+			"description": "<b>\"ConvertyHub\"</b> is a responsive units, text, files converter app built with <b>React</b>, <b>Vite</b>, <b>TypeScript</b>, and <b>TailwindCSS</b>. It allows users to convert between different units with ease, while also providing <b>formulas</b>, <b>examples</b>, <b>short descriptions</b>, and even <b>fun facts</b> about certain units for a more engaging experience.",
 			"image_mini": "/images/project-7/pr-converter-mini.jpg",
 			"images": [
 				{
@@ -218,10 +218,10 @@
 					"image": "/images/project-7/pr-converter-2.jpg"
 				}
 			],
-			"url": "https://unit-converter-hub.netlify.app/",
+			"url": "https://convertyhub.netlify.app/",
 			"tech_stack": "React, Vite, TypeScript (.tsx), HTML/JSX, TailwindCSS",
 			"key_features": [
-				"Convert between multiple units quickly and accurately.",
+				"Convert units, documents, and images — instantly, in one place.",
 				"Provides formulas behind conversions for transparency and learning.",
 				"Includes examples to help users understand unit usage.",
 				"Fun facts about selected units for an engaging user experience.",
