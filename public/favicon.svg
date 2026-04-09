@@ -1,0 +1,13 @@
+<svg viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg" width="32" height="32">
+  <rect width="32" height="32" fill="#fbfbfb"/>
+  <text
+    x="16"
+    y="23"
+    text-anchor="middle"
+    font-family="sans-serif"
+    font-weight="500"
+    font-size="19"
+    fill="#000000"
+    letter-spacing="0"
+  >T</text>
+</svg>
