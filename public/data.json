@@ -146,38 +146,27 @@
 		},
 		{
 			"id": 5,
-			"title": "Lambda",
-			"subtitle": "Responsive Landing Page",
-			"description": "Developed a responsive, user-focused landing page for a restaurant, enhancing customer engagement and providing an exceptional browsing experience.",
-			"image_mini": "/images/project-5/pr5-mini.jpg",
+			"title": "FreshFood",
+			"subtitle": "Food Delivery Landing Page",
+			"description": "Modern and responsive food delivery landing page built with React, TypeScript, Vite, and TailwindCSS.",
+			"image_mini": "/images/project-5/pr-freshfood-mini.jpg",
 			"images": [
-				{
-					"id": 51,
-					"image": "/images/project-5/pr5-1.jpg"
-				},
-				{
-					"id": 52,
-					"image": "/images/project-5/pr5-2.jpg"
-				},
-				{
-					"id": 53,
-					"image": "/images/project-5/pr5-3.jpg"
-				},
-				{
-					"id": 54,
-					"image": "/images/project-5/pr5-4.jpg"
-				},
-				{
-					"id": 55,
-					"image": "/images/project-5/pr5-5.jpg"
-				}
+				{ "id": 51, "image": "/images/project-5/pr-freshfood-1.jpg" },
+				{ "id": 52, "image": "/images/project-5/pr-freshfood-2.jpg" },
+				{ "id": 53, "image": "/images/project-5/pr-freshfood-3.jpg" },
+				{ "id": 54, "image": "/images/project-5/pr-freshfood-4.jpg" },
+				{ "id": 55, "image": "/images/project-5/pr-freshfood-5.jpg" }
 			],
-			"url": "https://webbdev.github.io/restaurant/",
-			"tech_stack": "HTML5, CSS3/SASS, Bootstrap, JavaScript (ES6+), jQuery.",
+			"url": "https://fresh-food-delivery.netlify.app/",
+			"tech_stack": "React, TypeScript, Vite, TailwindCSS, React Router, Framer Motion, React Hook Form, Zod, shadcn/ui",
 			"key_features": [
-				"Responsive design for all devices.",
-				"Interactive elements with smooth animations.",
-				"Custom styling using modular SASS."
+				"Responsive design for all screen sizes and devices.",
+				"Smooth animations and scroll effects with Framer Motion.",
+				"Contact form with validation using React Hook Form and Zod.",
+				"Newsletter subscription form with opt-in checkbox and validation.",
+				"Smooth navigation and routing with React Router.",
+				"Reusable component-based architecture.",
+				"Clean and modern UI design with shadcn/ui."
 			]
 		},
 		{
@@ -204,34 +193,70 @@
 		},
 		{
 			"id": 7,
-			"title": "ConvertyHub",
-			"subtitle": "Converter Hub App",
-			"description": "<b>\"ConvertyHub\"</b> is a responsive units, text, files converter app built with <b>React</b>, <b>Vite</b>, <b>TypeScript</b>, and <b>TailwindCSS</b>. It allows users to convert between different units with ease, while also providing <b>formulas</b>, <b>examples</b>, <b>short descriptions</b>, and even <b>fun facts</b> about certain units for a more engaging experience.",
-			"image_mini": "/images/project-7/pr-converter-mini.jpg",
+			"title": "Lambda",
+			"subtitle": "Responsive Landing Page",
+			"description": "Developed a responsive, user-focused landing page for a restaurant, enhancing customer engagement and providing an exceptional browsing experience.",
+			"image_mini": "/images/project-7/pr7-mini.jpg",
 			"images": [
 				{
 					"id": 71,
-					"image": "/images/project-7/pr-converter-1.jpg"
+					"image": "/images/project-7/pr7-1.jpg"
 				},
 				{
 					"id": 72,
-					"image": "/images/project-7/pr-converter-2.jpg"
+					"image": "/images/project-7/pr7-2.jpg"
 				},
 				{
 					"id": 73,
-					"image": "/images/project-7/pr-converter-3.jpg"
+					"image": "/images/project-7/pr7-3.jpg"
 				},
 				{
 					"id": 74,
-					"image": "/images/project-7/pr-converter-4.jpg"
+					"image": "/images/project-7/pr7-4.jpg"
 				},
 				{
 					"id": 75,
-					"image": "/images/project-7/pr-converter-5.jpg"
+					"image": "/images/project-7/pr7-5.jpg"
+				}
+			],
+			"url": "https://webbdev.github.io/restaurant/",
+			"tech_stack": "HTML5, CSS3/SASS, Bootstrap, JavaScript (ES6+), jQuery.",
+			"key_features": [
+				"Responsive design for all devices.",
+				"Interactive elements with smooth animations.",
+				"Custom styling using modular SASS."
+			]
+		},
+		{
+			"id": 8,
+			"title": "ConvertyHub",
+			"subtitle": "Converter Hub App",
+			"description": "<b>\"ConvertyHub\"</b> is a responsive units, text, files converter app built with <b>React</b>, <b>Vite</b>, <b>TypeScript</b>, and <b>TailwindCSS</b>. It allows users to convert between different units with ease, while also providing <b>formulas</b>, <b>examples</b>, <b>short descriptions</b>, and even <b>fun facts</b> about certain units for a more engaging experience.",
+			"image_mini": "/images/project-8/pr-converter-mini.jpg",
+			"images": [
+				{
+					"id": 81,
+					"image": "/images/project-8/pr-converter-1.jpg"
 				},
 				{
-					"id": 76,
-					"image": "/images/project-7/pr-converter-6.jpg"
+					"id": 82,
+					"image": "/images/project-8/pr-converter-2.jpg"
+				},
+				{
+					"id": 83,
+					"image": "/images/project-8/pr-converter-3.jpg"
+				},
+				{
+					"id": 84,
+					"image": "/images/project-8/pr-converter-4.jpg"
+				},
+				{
+					"id": 85,
+					"image": "/images/project-8/pr-converter-5.jpg"
+				},
+				{
+					"id": 86,
+					"image": "/images/project-8/pr-converter-6.jpg"
 				}
 			],
 			"url": "https://convertyhub.netlify.app/",

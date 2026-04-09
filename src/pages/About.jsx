@@ -1,46 +1,60 @@
+import { useState } from 'react';
 import { useOutletContext } from 'react-router-dom';
+import { motion, useScroll, useTransform } from 'framer-motion';
 import banner from '../assets/images/london.jpg'
 
 const about = {
 	img: "",
 	intro_1: "Hi, I'm Tanya,",
 	introParagraph: [
-		"a Front End Web Developer based in London, UK, with a passion for creating seamless, user-friendly digital experiences.", 
+		"a Front End Web Developer based in London, UK, with a passion for creating seamless, user-friendly digital experiences.",
 		"I specialise in building responsive and accessible websites and web apps using modern technologies like HTML5, CSS3, JavaScript, React.js, Node.js, Python, Django, and other.",
-		"I’m driven to deliver clean, efficient code and constantly explore new technologies to enhance performance and usability."
+		"I'm driven to deliver clean, efficient code and constantly explore new technologies to enhance performance and usability."
 	],
-	skillsLng: [
-		'JavaScript', 'TypeScript', 'Node.js', 'Python', 'HTML5', 'CSS3'
-	],
-	skillsFramework: [
-		'React.js', 'Vue.js', 'jQuery', 'Django', 'Express.js', 'Tailwind\u00a0CSS'
-	],
-	skillsOther: [
-		'Git', 'MongoDB', 'SQL', 'APIs', 'Jest', 'VS\u00a0Code'
-	]
+	skillsLng: ['JavaScript', 'TypeScript', 'Node.js', 'Python', 'HTML5', 'CSS3'],
+	skillsFramework: ['React.js', 'Vue.js', 'jQuery', 'Django', 'Express.js', 'Tailwind\u00a0CSS'],
+	skillsOther: ['Git', 'MongoDB', 'SQL', 'APIs', 'Jest', 'VS\u00a0Code']
 }
 
 const About = () => {
 	const { isFadingOut } = useOutletContext() || {};
+	const [imageLoaded, setImageLoaded] = useState(false)
+
+	// Use window scroll instead of target ref to avoid React ref conflicts
+	const { scrollY } = useScroll()
+	const scale = useTransform(scrollY, [0, 600], [1, 1.15])
 
 	return (
-		<section 
+		<section
 			id="about"
 			className={`container text-[16px] md:text-[18px] leading-[1.6] ${
 				isFadingOut ? 'animate-fadeOut' : 'animate-fadeIn'
 			}`}
 		>
 			<div className="pt-[70px] md:pt-[113px] mb-[40px] md:mb-[66px] xl:mb-[80px]"></div>
+
 			<div className='border-b border-black grid grid-cols-1 md:grid-cols-2 md:gap-8 lg:gap-16 xl:gap-16 pb-12 md:pb-20'>
+
+				{/* IMAGE */}
 				<div className="md:pr-10 lg:pr-14">
-					<img 
-						src={banner} 
-						alt="London"
-						className="hidden md:block"
-						width={382}
-						height={680}
-					/>
+					<div
+						className="hidden md:block overflow-hidden w-full max-w-[382px] max-h-[680px]"
+						style={{ backgroundColor: "#e8e8e8" }}
+					>
+						<motion.img
+							src={banner}
+							alt="London"
+							style={{ scale }}
+							initial={{ opacity: 0 }}
+							animate={{ opacity: imageLoaded ? 1 : 0 }}
+							transition={{ duration: 0.8, ease: "easeOut" }}
+							onLoad={() => setImageLoaded(true)}
+							className="w-full h-full object-cover block"
+						/>
+					</div>
 				</div>
+
+				{/* TEXT */}
 				<div className="lg:pl-6">
 					<div className="flex h-full">
 						<div className="md:mt-[5px] lg:mt-[10%] xl:mt-[15%]">
@@ -49,7 +63,7 @@ const About = () => {
 							</h1>
 							<div className="max-w-[90%]">
 								{about.introParagraph.map((intro_par, index) =>
-									<p key={index} className="mb-3">{intro_par}</p>
+								<p key={index} className="mb-3">{intro_par}</p>
 								)}
 							</div>
 						</div>
@@ -62,16 +76,16 @@ const About = () => {
 					<span className='relative'>
 						My Technical Skills
 						<span className="absolute left-0 -bottom-1 w-0 h-[2px] md:h-[4px] bg-red transition-all duration-300 group-hover:w-full"></span>
-				</span>
+					</span>
 				</h2>
-			
+
 				<div className="grid md:grid-cols-3 gap-6 xl:gap-8">
 					<div className="bg-white border border-gray-100 shadow-sm hover:shadow-lg rounded-lg px-6 pt-9 lg:pt-12 pb-10 lg:pb-14 transition-shadow duration-500">
 						<div className='flex flex-col justify-center'>
 							<h3 className="text-lg text-center font-bold mb-5 lg:mb-6">Languages</h3>
 							<div className='flex justify-center'>
 								<ul className="grid gap-4 lg:gap-5 text-left">
-									{about.skillsLng.map((skill, index) => 
+									{about.skillsLng.map((skill, index) =>
 										<li key={index}>
 											<span className='border-2 border-black rounded-full w-4 h-4 text-[12px] md:text-[15px] text-red px-1 mr-4'>✔</span>{skill}
 										</li>
@@ -86,7 +100,7 @@ const About = () => {
 							<h3 className="text-lg text-center font-bold mb-5 lg:mb-6">Frameworks / Libraries</h3>
 							<div className='flex justify-center'>
 								<ul className="grid gap-4 lg:gap-5 text-left">
-									{about.skillsFramework.map((skill, index) => 
+									{about.skillsFramework.map((skill, index) =>
 										<li key={index}>
 											<span className='border-2 border-black rounded-full w-4 h-4 text-[12px] md:text-[15px] text-red px-1 mr-4'>✔</span>{skill}
 										</li>
@@ -101,7 +115,7 @@ const About = () => {
 							<h3 className="text-lg text-center font-bold mb-5 lg:mb-6">Other</h3>
 							<div className='flex justify-center'>
 								<ul className="grid gap-4 lg:gap-5 text-left">
-									{about.skillsOther.map((skill, index) => 
+									{about.skillsOther.map((skill, index) =>
 										<li key={index}>
 											<span className='border-2 border-black rounded-full w-4 h-4 text-[12px] md:text-[15px] text-red px-1 mr-4'>✔</span>{skill}
 										</li>
