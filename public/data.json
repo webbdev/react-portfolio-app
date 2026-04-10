@@ -4,7 +4,7 @@
 			"id": 1,
 			"title": "La Perla",
 			"subtitle": "E-commerce Website",
-			"description": "\u003Cp\u003E\r\nDeveloped and enhanced the \u003Cstrong\u003EUX/UI\u003C/strong\u003E for \u003Cb\u003Elaperla.com\u003C/b\u003E, driving improved user engagement and satisfaction. Contributed to the project as a front-end developer, collaborating cross-functionally and ensuring feature delivery aligned with roadmap expectations. Leveraged modern technologies and Agile methodology to build responsive, user-friendly web experiences.\r\n\u003C/p\u003E",
+			"description": "Developed and enhanced the \u003Cstrong\u003EUX/UI\u003C/strong\u003E for \u003Cb\u003Elaperla.com\u003C/b\u003E, driving improved user engagement and satisfaction. Contributed to the project as a front-end developer, collaborating cross-functionally and ensuring feature delivery aligned with roadmap expectations. Leveraged modern technologies and Agile methodology to build responsive, user-friendly web experiences.",
 			"image_mini": "/images/project-1/pr1-mini.jpg",
 			"images": [
 				{
@@ -154,8 +154,7 @@
 				{ "id": 51, "image": "/images/project-5/pr-freshfood-1.jpg" },
 				{ "id": 52, "image": "/images/project-5/pr-freshfood-2.jpg" },
 				{ "id": 53, "image": "/images/project-5/pr-freshfood-3.jpg" },
-				{ "id": 54, "image": "/images/project-5/pr-freshfood-4.jpg" },
-				{ "id": 55, "image": "/images/project-5/pr-freshfood-5.jpg" }
+				{ "id": 54, "image": "/images/project-5/pr-freshfood-4.jpg" }
 			],
 			"url": "https://fresh-food-delivery.netlify.app/",
 			"tech_stack": "React, TypeScript, Vite, TailwindCSS, React Router, Framer Motion, React Hook Form, Zod, shadcn/ui",
