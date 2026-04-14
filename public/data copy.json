@@ -170,34 +170,92 @@
 		},
 		{
 			"id": 6,
-			"title": "ConvertyHub",
-			"subtitle": "Converter Hub App",
-			"description": "<b>\"ConvertyHub\"</b> is a responsive units, text, files converter app built with <b>React</b>, <b>Vite</b>, <b>TypeScript</b>, and <b>TailwindCSS</b>. It allows users to convert between different units with ease, while also providing <b>formulas</b>, <b>examples</b>, <b>short descriptions</b>, and even <b>fun facts</b> about certain units for a more engaging experience.",
-			"image_mini": "/images/project-6/pr-converter-mini.jpg",
+			"title": "Bugger",
+			"subtitle": "Classic Arcade Game Clone",
+			"description": "Developed a 2D classic arcade game clone – “Bugger”. Players navigate from the bottom to the top of the screen while avoiding enemies and collecting bonuses. The game features dynamic movement, intuitive controls, and interactive elements like scoring and bonus items. Players earn points by reaching the safe zone, with limited lives adding an extra layer of challenge.",
+			"image_mini": "/images/project-6/pr6-mini.jpg",
 			"images": [
 				{
 					"id": 61,
-					"image": "/images/project-6/pr-converter-1.jpg"
+					"image": "/images/project-6/pr6-1.jpg"
+				}
+			],
+			"url": "https://webbdev.github.io/Arcade-game-clone/",
+			"tech_stack": "JavaScript (ES6+), HTML5, CSS3",
+			"key_features": [
+				"Dynamic Gameplay: Avoid enemy 'bugs' across a 6-row game field with varying speeds.",
+				"Intuitive Controls: Use arrow keys to move up, down, left, and right.",
+				"Lives and Scoring: Start with 5 lives, earn points by reaching the top, and restart when lives run out.",
+				"Bonus Items: Collect hearts, stars, and keys to gain extra lives or boost scores.",
+				"Retro Design: Vibrant 2D visuals for a fun arcade experience."
+			]
+		},
+		{
+			"id": 7,
+			"title": "Lambda",
+			"subtitle": "Responsive Landing Page",
+			"description": "Developed a responsive, user-focused landing page for a restaurant, enhancing customer engagement and providing an exceptional browsing experience.",
+			"image_mini": "/images/project-7/pr7-mini.jpg",
+			"images": [
+				{
+					"id": 71,
+					"image": "/images/project-7/pr7-1.jpg"
 				},
 				{
-					"id": 62,
-					"image": "/images/project-6/pr-converter-2.jpg"
+					"id": 72,
+					"image": "/images/project-7/pr7-2.jpg"
 				},
 				{
-					"id": 63,
-					"image": "/images/project-6/pr-converter-3.jpg"
+					"id": 73,
+					"image": "/images/project-7/pr7-3.jpg"
 				},
 				{
-					"id": 64,
-					"image": "/images/project-6/pr-converter-4.jpg"
+					"id": 74,
+					"image": "/images/project-7/pr7-4.jpg"
 				},
 				{
-					"id": 65,
-					"image": "/images/project-6/pr-converter-5.jpg"
+					"id": 75,
+					"image": "/images/project-7/pr7-5.jpg"
+				}
+			],
+			"url": "https://webbdev.github.io/restaurant/",
+			"tech_stack": "HTML5, CSS3/SASS, Bootstrap, JavaScript (ES6+), jQuery.",
+			"key_features": [
+				"Responsive design for all devices.",
+				"Interactive elements with smooth animations.",
+				"Custom styling using modular SASS."
+			]
+		},
+		{
+			"id": 8,
+			"title": "ConvertyHub",
+			"subtitle": "Converter Hub App",
+			"description": "<b>\"ConvertyHub\"</b> is a responsive units, text, files converter app built with <b>React</b>, <b>Vite</b>, <b>TypeScript</b>, and <b>TailwindCSS</b>. It allows users to convert between different units with ease, while also providing <b>formulas</b>, <b>examples</b>, <b>short descriptions</b>, and even <b>fun facts</b> about certain units for a more engaging experience.",
+			"image_mini": "/images/project-8/pr-converter-mini.jpg",
+			"images": [
+				{
+					"id": 81,
+					"image": "/images/project-8/pr-converter-1.jpg"
 				},
 				{
-					"id": 66,
-					"image": "/images/project-6/pr-converter-6.jpg"
+					"id": 82,
+					"image": "/images/project-8/pr-converter-2.jpg"
+				},
+				{
+					"id": 83,
+					"image": "/images/project-8/pr-converter-3.jpg"
+				},
+				{
+					"id": 84,
+					"image": "/images/project-8/pr-converter-4.jpg"
+				},
+				{
+					"id": 85,
+					"image": "/images/project-8/pr-converter-5.jpg"
+				},
+				{
+					"id": 86,
+					"image": "/images/project-8/pr-converter-6.jpg"
 				}
 			],
 			"url": "https://convertyhub.netlify.app/",
