@@ -5,39 +5,39 @@
 			"title": "La Perla",
 			"subtitle": "E-commerce Website",
 			"description": "Developed and enhanced the \u003Cstrong\u003EUX/UI\u003C/strong\u003E for \u003Cb\u003Elaperla.com\u003C/b\u003E, driving improved user engagement and satisfaction. Contributed to the project as a front-end developer, collaborating cross-functionally and ensuring feature delivery aligned with roadmap expectations. Leveraged modern technologies and Agile methodology to build responsive, user-friendly web experiences.",
-			"image_mini": "/images/project-1/pr1-mini.jpg",
+			"image_mini": "/images/project-laperla/pr-laperla-mini.jpg",
 			"images": [
 				{
-					"id": 11,
-					"image": "/images/project-1/pr1-1.jpg"
+					"id": "laperla-1",
+					"image": "/images/project-laperla/pr-laperla-1.jpg"
 				},
 				{
-					"id": 12,
-					"image": "/images/project-1/pr1-2.jpg"
+					"id": "laperla-2",
+					"image": "/images/project-laperla/pr-laperla-2.jpg"
 				},
 				{
-					"id": 13,
-					"image": "/images/project-1/pr1-3.jpg"
+					"id": "laperla-3",
+					"image": "/images/project-laperla/pr-laperla-3.jpg"
 				},
 				{
-					"id": 14,
-					"image": "/images/project-1/pr1-4.jpg"
+					"id": "laperla-4",
+					"image": "/images/project-laperla/pr-laperla-4.jpg"
 				},
 				{
-					"id": 15,
-					"image": "/images/project-1/pr1-5.jpg"
+					"id": "laperla-5",
+					"image": "/images/project-laperla/pr-laperla-5.jpg"
 				},
 				{
-					"id": 16,
-					"image": "/images/project-1/pr1-6.jpg"
+					"id": "laperla-6",
+					"image": "/images/project-laperla/pr-laperla-6.jpg"
 				},
 				{
-					"id": 17,
-					"image": "/images/project-1/pr1-7.jpg"
+					"id": "laperla-7",
+					"image": "/images/project-laperla/pr-laperla-7.jpg"
 				},
 				{
-					"id": 18,
-					"image": "/images/project-1/pr1-8.jpg"
+					"id": "laperla-8",
+					"image": "/images/project-laperla/pr-laperla-8.jpg"
 				}
 			],
 			"url": "https://laperla.com/",
@@ -51,24 +51,25 @@
 				"Delivered cohesive front-end solutions in collaboration with Product, Design, and Back-end teams."
 			]
 		},
+		
 		{
 			"id": 2,
 			"title": "Printerpix",
 			"subtitle": "E-commerce Platform for Personalized Photo Gifts",
 			"description": "\u003Cp\u003EWhile working at \u003Cstrong\u003EPrinterpix\u003C/strong\u003E, I contributed to improving the \u003Cstrong\u003Euser experience\u003C/strong\u003E and \u003Cstrong\u003Euser interface\u003C/strong\u003E of responsive e-commerce platform, Printerpix.co.uk, built on ASP.NET MVC. I developed engaging, marketing-focused pages using JavaScript, jQuery, Shopify and Liquid templates. Collaborated with cross-functional teams—including Product, Design, and Back-End Development. By following Agile methodologies, I helped streamline workflows and improve customer interactions.\r\n\u003C/p\u003E",
-			"image_mini": "/images/project-2/pr2-mini.jpg",
+			"image_mini": "/images/project-printerpix/pr-printerpix-mini.jpg",
 			"images": [
 				{
-					"id": 21,
-					"image": "/images/project-2/pr2-1.jpg"
+					"id": "printerpix-1",
+					"image": "/images/project-printerpix/pr-printerpix-1.jpg"
 				},
 				{
-					"id": 22,
-					"image": "/images/project-2/pr2-2.jpg"
+					"id": "printerpix-2",
+					"image": "/images/project-printerpix/pr-printerpix-2.jpg"
 				},
 				{
-					"id": 23,
-					"image": "/images/project-2/pr2-3.jpg"
+					"id": "printerpix-3",
+					"image": "/images/project-printerpix/pr-printerpix-3.jpg"
 				}
 			],
 			"url": "https://www.printerpix.co.uk/",
@@ -84,52 +85,22 @@
 		},
 		{
 			"id": 3,
-			"title": "My Reads",
-			"subtitle": "React App",
-			"description": "\u003Cb\u003E\"MyReads\"\u003C/b\u003E is a user-friendly bookshelf app that lets users organise their reading list by categorising books into shelves such as \u003Cb\u003ECurrently Reading\u003C/b\u003E, \u003Cb\u003EWant to Read\u003C/b\u003E, and \u003Cb\u003ERead\u003C/b\u003E. It provides seamless interactions using React and persists data via API integration.",
-			"image_mini": "/images/project-3/pr3-mini.jpg",
-			"images": [
-				{
-					"id": 31,
-					"image": "/images/project-3/pr3-1.jpg"
-				},
-				{
-					"id": 32,
-					"image": "/images/project-3/pr3-2.jpg"
-				},
-				{
-					"id": 33,
-					"image": "/images/project-3/pr3-3.jpg"
-				}
-			],
-			"url": "https://my-bookshelf-app.netlify.app/",
-			"tech_stack": "React, JavaScript, JSX, HTML5, CSS3/SCSS, API",
-			"key_features": [
-				"Categorize books into three shelves with an intuitive dropdown interface.",
-				"Search for books by title or author and add them to your shelves dynamically.",
-				"Automatically save user interactions using a robust API integration.",
-				"Responsive design for optimal usability across devices.",
-				"Built with React’s state and component-based architecture for seamless performance."
-			]
-		},
-		{
-			"id": 4,
 			"title": "Music Shop",
 			"subtitle": "Store Landing Page",
 			"description": "<b>\"Music Shop\"</b> is a modern single-page website for a local music store. It provides essential information such as <b>address</b>, <b>services</b>, <b>product images</b>, and <b>pricing</b>, all in a responsive and lightweight design built with <b>React</b>, <b>Vite</b>, and <b>TypeScript</b>.",
-			"image_mini": "/images/project-4/pr-music-shop-mini.jpg",
+			"image_mini": "/images/project-music-shop/pr-music-shop-mini.jpg",
 			"images": [
 				{
-					"id": 41,
-					"image": "/images/project-4/pr-music-shop-1.jpg"
+					"id": "music-shop-1",
+					"image": "/images/project-music-shop/pr-music-shop-1.jpg"
 				},
 				{
-					"id": 42,
-					"image": "/images/project-4/pr-music-shop-2.jpg"
+					"id": "music-shop-2",
+					"image": "/images/project-music-shop/pr-music-shop-2.jpg"
 				},
 				{
-					"id": 43,
-					"image": "/images/project-4/pr-music-shop-3.jpg"
+					"id": "music-shop-3",
+					"image": "/images/project-music-shop/pr-music-shop-3.jpg"
 				}
 			],
 			"url": "https://musicshopmitino.ru/",
@@ -144,17 +115,73 @@
 				"Easy deployment to hosting platforms such as Netlify or GitHub Pages."
 			]
 		},
+		
+		{
+			"id": 4,
+			"title": "Finova",
+			"subtitle": "Financial Advisor Landing Page",
+			"description": "Responsive, animated landing page template for financial advisors. Built with React, TS, Vite, Tailwind CSS v4, and Motion.",
+			"image_mini": "/images/project-finova/pr-finova-mini.jpg",
+			"images": [
+				{ 
+					"id": "finova-1", 
+					"image": "/images/project-finova/pr-finova-1.jpg" 
+				},
+				{ 
+					"id": "finova-2", 
+					"image": "/images/project-finova/pr-finova-2.jpg" 
+				},
+				{ 
+					"id": "finova-3", 
+					"image": "/images/project-finova/pr-finova-3.jpg" 
+				},
+				{ 
+					"id": "finova-4", 
+					"image": "/images/project-finova/pr-finova-4.jpg" 
+				},
+				{ 
+					"id": "finova-5", 
+					"image": "/images/project-finova/pr-finova-5.jpg" 
+				},
+				{ 
+					"id": "finova-6", 
+					"image": "/images/project-finova/pr-finova-6.jpg" 
+				},
+				{ 
+					"id": "finova-7", 
+					"image": "/images/project-finova/pr-finova-7.jpg" 
+				},
+				{ 
+					"id": "finova-8", 
+					"image": "/images/project-finova/pr-finova-8.jpg" 
+				},
+				{ 
+					"id": "finova-9", 
+					"image": "/images/project-finova/pr-finova-9.jpg" 
+				}
+			],
+			"url": "https://finova-financial-advisor.netlify.app/",
+			"tech_stack": "React, TypeScript, Vite, TailwindCSS, React Router, Motion",
+			"key_features": [
+				"Multi-page with client-side routing — home, booking flow, service pages.",
+				"Reusable ServicePage layout — new services are one content file.",
+				"Scroll-driven parallax and reveal animations (Motion).",
+				"Responsive with full-screen mobile menu overlay.",
+				"Accessible — semantic HTML, ARIA, focus-visible, prefers-reduced-motion.",
+				"Lazy-loaded routes for a fast home page."
+			]
+		},
 		{
 			"id": 5,
 			"title": "FreshFood",
 			"subtitle": "Food Delivery Landing Page",
 			"description": "Modern and responsive food delivery landing page built with React, TypeScript, Vite, and TailwindCSS.",
-			"image_mini": "/images/project-5/pr-freshfood-mini.jpg",
+			"image_mini": "/images/project-freshfood/pr-freshfood-mini.jpg",
 			"images": [
-				{ "id": 51, "image": "/images/project-5/pr-freshfood-1.jpg" },
-				{ "id": 52, "image": "/images/project-5/pr-freshfood-2.jpg" },
-				{ "id": 53, "image": "/images/project-5/pr-freshfood-3.jpg" },
-				{ "id": 54, "image": "/images/project-5/pr-freshfood-4.jpg" }
+				{ "id": "freshfood-1", "image": "/images/project-freshfood/pr-freshfood-1.jpg" },
+				{ "id": "freshfood-2", "image": "/images/project-freshfood/pr-freshfood-2.jpg" },
+				{ "id": "freshfood-3", "image": "/images/project-freshfood/pr-freshfood-3.jpg" },
+				{ "id": "freshfood-4", "image": "/images/project-freshfood/pr-freshfood-4.jpg" }
 			],
 			"url": "https://fresh-food-delivery.netlify.app/",
 			"tech_stack": "React, TypeScript, Vite, TailwindCSS, React Router, Framer Motion, React Hook Form, Zod, shadcn/ui",
@@ -168,36 +195,67 @@
 				"Clean and modern UI design with shadcn/ui."
 			]
 		},
+		
 		{
 			"id": 6,
+			"title": "My Reads",
+			"subtitle": "React App",
+			"description": "\u003Cb\u003E\"MyReads\"\u003C/b\u003E is a user-friendly bookshelf app that lets users organise their reading list by categorising books into shelves such as \u003Cb\u003ECurrently Reading\u003C/b\u003E, \u003Cb\u003EWant to Read\u003C/b\u003E, and \u003Cb\u003ERead\u003C/b\u003E. It provides seamless interactions using React and persists data via API integration.",
+			"image_mini": "/images/project-myreads/pr-myreads-mini.jpg",
+			"images": [
+				{
+					"id": "myreads-1",
+					"image": "/images/project-myreads/pr-myreads-1.jpg"
+				},
+				{
+					"id": "myreads-2",
+					"image": "/images/project-myreads/pr-myreads-2.jpg"
+				},
+				{
+					"id": "myreads-3",
+					"image": "/images/project-myreads/pr-myreads-3.jpg"
+				}
+			],
+			"url": "https://my-bookshelf-app.netlify.app/",
+			"tech_stack": "React, JavaScript, JSX, HTML5, CSS3/SCSS, API",
+			"key_features": [
+				"Categorize books into three shelves with an intuitive dropdown interface.",
+				"Search for books by title or author and add them to your shelves dynamically.",
+				"Automatically save user interactions using a robust API integration.",
+				"Responsive design for optimal usability across devices.",
+				"Built with React’s state and component-based architecture for seamless performance."
+			]
+		},
+		{
+			"id": 7,
 			"title": "ConvertyHub",
 			"subtitle": "Converter Hub App",
 			"description": "<b>\"ConvertyHub\"</b> is a responsive units, text, files converter app built with <b>React</b>, <b>Vite</b>, <b>TypeScript</b>, and <b>TailwindCSS</b>. It allows users to convert between different units with ease, while also providing <b>formulas</b>, <b>examples</b>, <b>short descriptions</b>, and even <b>fun facts</b> about certain units for a more engaging experience.",
-			"image_mini": "/images/project-6/pr-converter-mini.jpg",
+			"image_mini": "/images/project-converter/pr-converter-mini.jpg",
 			"images": [
 				{
-					"id": 61,
-					"image": "/images/project-6/pr-converter-1.jpg"
+					"id": "converter-1",
+					"image": "/images/project-converter/pr-converter-1.jpg"
 				},
 				{
-					"id": 62,
-					"image": "/images/project-6/pr-converter-2.jpg"
+					"id": "converter-2",
+					"image": "/images/project-converter/pr-converter-2.jpg"
 				},
 				{
-					"id": 63,
-					"image": "/images/project-6/pr-converter-3.jpg"
+					"id": "converter-3",
+					"image": "/images/project-converter/pr-converter-3.jpg"
 				},
 				{
-					"id": 64,
-					"image": "/images/project-6/pr-converter-4.jpg"
+					"id": "converter-4",
+					"image": "/images/project-converter/pr-converter-4.jpg"
 				},
 				{
-					"id": 65,
-					"image": "/images/project-6/pr-converter-5.jpg"
+					"id": "converter-5",
+					"image": "/images/project-converter/pr-converter-5.jpg"
 				},
 				{
-					"id": 66,
-					"image": "/images/project-6/pr-converter-6.jpg"
+					"id": "converter-6",
+					"image": "/images/project-converter/pr-converter-6.jpg"
 				}
 			],
 			"url": "https://convertyhub.netlify.app/",
@@ -211,5 +269,6 @@
 				"Fast and lightweight performance powered by Vite + React."
 			]
 		}
+		
 	]
 }
